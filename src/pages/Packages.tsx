@@ -17,15 +17,15 @@ const Packages = () => {
   const [priceFilter, setPriceFilter] = useState("all");
 
   const packages = [
-    { image: santoriniImage, destination: "Santorini, Greece", duration: "5 Days 4 Nights", price: "$1,299", priceValue: 1299 },
-    { image: baliImage, destination: "Bali, Indonesia", duration: "6 Days 5 Nights", price: "$899", priceValue: 899 },
-    { image: switzerlandImage, destination: "Swiss Alps Adventure", duration: "7 Days 6 Nights", price: "$1,799", priceValue: 1799 },
-    { image: dubaiImage, destination: "Dubai Luxury Tour", duration: "4 Days 3 Nights", price: "$1,599", priceValue: 1599 },
-    { image: maldivesImage, destination: "Maldives Paradise", duration: "5 Days 4 Nights", price: "$2,199", priceValue: 2199 },
-    { image: parisImage, destination: "Paris Romance", duration: "4 Days 3 Nights", price: "$1,499", priceValue: 1499 },
-    { image: santoriniImage, destination: "Mediterranean Cruise", duration: "8 Days 7 Nights", price: "$2,599", priceValue: 2599 },
-    { image: baliImage, destination: "Asian Highlights", duration: "10 Days 9 Nights", price: "$1,899", priceValue: 1899 },
-    { image: switzerlandImage, destination: "European Explorer", duration: "12 Days 11 Nights", price: "$2,999", priceValue: 2999 },
+    { image: santoriniImage, destination: "Santorini, Greece", duration: "5 Days 4 Nights", price: "₹1,09,999", priceValue: 109999 },
+    { image: baliImage, destination: "Bali, Indonesia", duration: "6 Days 5 Nights", price: "₹74,999", priceValue: 74999 },
+    { image: switzerlandImage, destination: "Swiss Alps Adventure", duration: "7 Days 6 Nights", price: "₹1,49,999", priceValue: 149999 },
+    { image: dubaiImage, destination: "Dubai Luxury Tour", duration: "4 Days 3 Nights", price: "₹34,999", priceValue: 34999 },
+    { image: maldivesImage, destination: "Maldives Paradise", duration: "5 Days 4 Nights", price: "₹1,79,999", priceValue: 179999 },
+    { image: parisImage, destination: "Paris Romance", duration: "4 Days 3 Nights", price: "₹2,49,999", priceValue: 249999 },
+    { image: santoriniImage, destination: "Mediterranean Cruise", duration: "8 Days 7 Nights", price: "₹2,79,999", priceValue: 279999 },
+    { image: baliImage, destination: "Asian Highlights", duration: "10 Days 9 Nights", price: "₹99,999", priceValue: 99999 },
+    { image: switzerlandImage, destination: "European Explorer", duration: "12 Days 11 Nights", price: "₹1,79,999", priceValue: 179999 },
   ];
 
   const filteredPackages = packages.filter((pkg) => {
