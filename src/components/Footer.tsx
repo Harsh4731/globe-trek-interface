@@ -61,15 +61,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <Phone className="h-5 w-5 mt-0.5 shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 97171 24731</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <Mail className="h-5 w-5 mt-0.5 shrink-0" />
-                <span>info@travelease.com</span>
+                <span>Harsh.help@travelease.com</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-5 w-5 mt-0.5 shrink-0" />
-                <span>123 Travel Street, Adventure City, AC 12345</span>
+                <span>New delhi , India</span>
               </li>
             </ul>
           </div>
